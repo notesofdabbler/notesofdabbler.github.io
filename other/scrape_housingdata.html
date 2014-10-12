@@ -82,13 +82,13 @@ ns_id=getNodeSet(housedoc,&quot;//ul[@class='listing-summary']//li[@class='listi
 id=sapply(ns_id,function(x) xmlAttrs(x)[&quot;href&quot;])
 id</code></pre>
 <pre><code>##                                                                                         href 
-##                &quot;/realestateandhomes-detail/9918-Redbarn-Trl_Centerville_OH_45458_1155441885&quot; 
+##                &quot;/realestateandhomes-detail/3875-Mesquite-Dr_Beavercreek_OH_45440_1156581948&quot; 
 ##                                                                                         href 
-##          &quot;/realestateandhomes-detail/2011-Aspen-Ridge-Ct_Miami-Township_OH_45459_1152251947&quot; 
+##                &quot;/realestateandhomes-detail/5700-Troy-Pike_Huber-Heights_OH_45424_1154359505&quot; 
 ##                                                                                         href 
-##             &quot;/realestateandhomes-detail/5249-Beechview-Dr_Huber-Heights_OH_45424_1156400431&quot; 
+##               &quot;/realestateandhomes-detail/2158-Annandale-Pl_Beavercreek_OH_45385_1151654368&quot; 
 ##                                                                                         href 
-##            &quot;/realestateandhomes-detail/512-Misty-Morning-Ct_Centerville_OH_45429_1155616027&quot; 
+##              &quot;/realestateandhomes-detail/4958-Wilmington-Pike_Kettering_OH_45440_1156044656&quot; 
 ##                                                                                         href 
 ## &quot;/realestateandhomes-detail/1404-Eden-Meadows-Way_Sugarcreek-Township_OH_45440_M47138-26737&quot; 
 ##                                                                                         href 
@@ -112,17 +112,34 @@ id</code></pre>
 ##                                                                                         href 
 ##   &quot;/realestateandhomes-detail/986-Olde-Sterling-Way_Washington-Township_OH_45459_1152439949&quot; 
 ##                                                                                         href 
-##               &quot;/realestateandhomes-detail/2158-Annandale-Pl_Beavercreek_OH_45385_1151654368&quot; 
+##              &quot;/realestateandhomes-detail/5873-Overbrooke-Rd_Centerville_OH_45440_1152054228&quot; 
 ##                                                                                         href 
-##                &quot;/realestateandhomes-detail/9918-Redbarn-Trl_Centerville_OH_45458_1155441885&quot; 
+##                &quot;/realestateandhomes-detail/5704-Oak-Valley-Rd_Kettering_OH_45440_1156042569&quot; 
 ##                                                                                         href 
-##              &quot;/realestateandhomes-detail/4958-Wilmington-Pike_Kettering_OH_45440_1156036543&quot;</code></pre>
+##            &quot;/realestateandhomes-detail/512-Misty-Morning-Ct_Centerville_OH_45429_1155616027&quot;</code></pre>
 <pre class="r"><code># using rvest library
 housedoc = html(srchurl) 
-houselist = housedoc %&gt;% html_node(&quot;.listing-summary&quot;)
+houselist = housedoc %&gt;% html_nodes(&quot;.listing-summary&quot;)
 id =  houselist %&gt;% html_node(&quot;.listing-location a&quot;) %&gt;% html_attr(&quot;href&quot;)
 id</code></pre>
-<pre><code>## [1] &quot;/realestateandhomes-detail/3875-Mesquite-Dr_Beavercreek_OH_45440_1156581948&quot;</code></pre>
+<pre><code>##  [1] &quot;/realestateandhomes-detail/226-Edgar-Ave_Dayton_OH_45410_1156432890&quot;                       
+##  [2] &quot;/realestateandhomes-detail/1595-Little-Falls-Dr_Clearcreek-Township_OH_45458_1156544234&quot;   
+##  [3] &quot;/realestateandhomes-detail/8811-Windbluff_Washington-Township_OH_45458_1156596059&quot;         
+##  [4] &quot;/realestateandhomes-detail/3875-Mesquite-Dr_Beavercreek_OH_45440_1156581948&quot;               
+##  [5] &quot;/realestateandhomes-detail/1404-Eden-Meadows-Way_Sugarcreek-Township_OH_45440_M47138-26737&quot;
+##  [6] &quot;/realestateandhomes-detail/1719-Heritage-Lake-Dr_Centerville_OH_45458_M35086-04336&quot;        
+##  [7] &quot;/realestateandhomes-detail/3875-Mesquite-Dr_Beavercreek_OH_45440_M37209-50231&quot;             
+##  [8] &quot;/realestateandhomes-detail/4322-Killian-Ct_Dayton_OH_45440_M47012-68114&quot;                   
+##  [9] &quot;/realestateandhomes-detail/9620-Preserve-Pl_Centerville_OH_45458_M48704-43418&quot;             
+## [10] &quot;/realestateandhomes-detail/1475-Country-Wood-Dr_Sugarcreek-Township_OH_45440_M47121-87036&quot; 
+## [11] &quot;/realestateandhomes-detail/3848-Mesquite-Dr_Beavercreek_OH_45440_M37404-77585&quot;             
+## [12] &quot;/realestateandhomes-detail/3766-Mesquite-Dr_Beavercreek_OH_45440_M44938-29951&quot;             
+## [13] &quot;/realestateandhomes-detail/1360-Eden-Meadows-Way_Sugarcreek-Township_OH_45440_M46918-39831&quot;
+## [14] &quot;/realestateandhomes-detail/1223-Ripplecreek-Ct_Centerville_OH_45458_M38951-86702&quot;          
+## [15] &quot;/realestateandhomes-detail/3875-Mesquite-Dr_Beavercreek_OH_45440_1156581554&quot;               
+## [16] &quot;/realestateandhomes-detail/311-West-Plum-St_Tipp-City_OH_45371_1155924433&quot;                 
+## [17] &quot;/realestateandhomes-detail/512-Misty-Morning-Ct_Centerville_OH_45429_1155616027&quot;           
+## [18] &quot;/realestateandhomes-detail/986-Olde-Sterling-Way_Washington-Township_OH_45459_1152439949&quot;</code></pre>
 
 
 </div>
