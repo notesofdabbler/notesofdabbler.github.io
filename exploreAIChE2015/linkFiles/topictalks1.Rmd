@@ -1,0 +1,39 @@
+[A Case Study of Data Analytics for the Manufacturing of a Monoclonal Antibody](https://aiche.confex.com/aiche/2015/webprogram/Paper409106.html)   
+
+[Clone and Media Selection in Mab Biosimilar Process Development](https://aiche.confex.com/aiche/2015/webprogram/Paper428472.html)   
+
+[Improving Yield of Drug Product Manufacturing with Hybrid Approach](https://aiche.confex.com/aiche/2015/webprogram/Paper429799.html)   
+
+[Validation of a New Product Introduction Involving Continuous Unit Operations in a Batch/Continuous Hybrid Process](https://aiche.confex.com/aiche/2015/webprogram/Paper426944.html)   
+
+[Efficient Detection of Amyloid?using PMMA-Tag Fused VHH Antibody](https://aiche.confex.com/aiche/2015/webprogram/Paper405063.html)   
+
+[Comparative Proteomic Analysis of Host and High Biopharmaceuticals Producing CHO Cell Lines](https://aiche.confex.com/aiche/2015/webprogram/Paper425853.html)   
+
+[Proteomic Time Profiling of Mab Producing CHO Fed-Batch Bioreactor Cultures](https://aiche.confex.com/aiche/2015/webprogram/Paper432085.html)   
+
+[Design and Simulation of a Continuous Bioreactor](https://aiche.confex.com/aiche/2015/webprogram/Paper418599.html)   
+
+[New Synthetic Adsorptive Depth Filtration Media for the Primary and Secondary Clarification of Mab from CHO-S Harvests](https://aiche.confex.com/aiche/2015/webprogram/Paper422745.html)   
+
+[The Impact of Cell Culture Media Variability on the Process Development of Biosimilars](https://aiche.confex.com/aiche/2015/webprogram/Paper431560.html)   
+
+[Advances in Gas Sparging Simulation for Bioreactor Modeling to Create Comprehensive ?Simulation Design Space](https://aiche.confex.com/aiche/2015/webprogram/Paper427476.html)   
+
+[CFD Investigation of Nozzle Configuration and Interface Tension Effects on Core-Shell Droplet Formation in Coaxial Electrohydrodynamic Atomization Process](https://aiche.confex.com/aiche/2015/webprogram/Paper421481.html)   
+
+[Think Small, Think Flexible: The Expansion Strategy of a Continuously Operated Modular Multi-Product Plant](https://aiche.confex.com/aiche/2015/webprogram/Paper423627.html)   
+
+[Membrane Enhanced Peptide Synthesis (MEPS) ? Integrating Organic Solvent Nanofiltration (OSN) into Iterative Chemical Reactions](https://aiche.confex.com/aiche/2015/webprogram/Paper410571.html)   
+
+[Prediction of Intracellular Nucleotide Sugar Variation Impact on Monoclonal Antibodies (mAbs) Glycan Distribution Using Glycosylation Reaction Network Models](https://aiche.confex.com/aiche/2015/webprogram/Paper432830.html)   
+
+[Understanding the Effect of High Gas Entrance Velocity on Chinese Hamster Ovary (CHO) Cell Culture Process](https://aiche.confex.com/aiche/2015/webprogram/Paper432527.html)   
+
+[Analysis of Post-Translational Regulation of Engineered CHO Using Proteomics](https://aiche.confex.com/aiche/2015/webprogram/Paper425976.html)   
+
+[Simulation of Biopharmaceutical Bioreactor Using an Integrated CFD-Population Balance Modeling Approach](https://aiche.confex.com/aiche/2015/webprogram/Paper430528.html)   
+
+[Case-Studies of Enhancing Manufacturing Flexibility for a Commercial Biologic](https://aiche.confex.com/aiche/2015/webprogram/Paper420196.html)   
+
+[The Impact of Glycation on Protein Color](https://aiche.confex.com/aiche/2015/webprogram/Paper420830.html)   
